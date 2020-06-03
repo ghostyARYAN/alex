@@ -8,7 +8,8 @@ import colorsys
 import random
 import time
 
-client = commands.Bot(command_prefix = '+', case_insensitive=True)
+client = commands.Bot(command_prefix = '.', case_insensitive=True)
+client.remove_command('help')
 Client = discord.client
 Clientdiscord = discord.Client()
 
@@ -17,7 +18,7 @@ async def on_ready():
     print('Logged in as '+client.user.name+' (ID:'+client.user.id+') | Connected to '+str(len(client.servers))+' servers | Connected to '+str(len(set(client.get_all_members())))+' users')
     print('--------')
     print('--------')
-    print('CREATED AND HOSTED BY SUBHANKAR DAS')
+    print('CREATED AND HOSTED BY SUBHANKAR DAS')    
 
 @client.command(pass_context = True)
 @commands.has_permissions(kick_members=True)     

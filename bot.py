@@ -35,4 +35,4 @@ for i in exts:
 
 
 
-bot.run(os.environ['NzE0ODIyMTMxOTQyNDI0NTc3.Xs0P_Q.fwdp5fGChlTCjiuRTStwRpht8C4'])
+bot.run(os.environ['NzE0ODIyMTMxOTQyNDI0NTc3.Xs0P_Q.W_28XltiPurgsqMRlDIlQ9QsDvg'])
